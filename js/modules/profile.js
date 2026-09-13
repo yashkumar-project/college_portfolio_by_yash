@@ -2,9 +2,9 @@
 const profileDetails = {
   name: "Yash Kumar",
   course: "B.Tech in Computer Science & Engineering",
-  class: "Final Year / 7th Semester",
-  university: "Your University Name",
-  graduationYear: "2026",
+  class: "Second Year / 3rd Semester",
+  university: "Guru Ghashidas University(GGU)",
+  graduationYear: "2029",
 };
 
 export function renderProfile(containerId) {
