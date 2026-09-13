@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yash Kumar | Portfolio</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" aria-label="Primary navigation">
+      <a class="logo" href="#hero" aria-label="Back to home">&lt;Yash/&gt;</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="navLinks"
+      >
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="hero-content">
+        <p class="subtitle">Hello, I'm</p>
+        <h1>Yash Kumar</h1>
+        <p class="tagline">
+          Full-Stack Web Developer <span>/</span> Problem Solver
+        </p>
+        <p class="hero-intro">
+          I build thoughtful digital experiences that turn complex ideas into
+          clear, useful products.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary-btn">View Work</a>
+          <a href="#contact" class="btn secondary-btn">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Academic / About Section -->
+    <section id="about" class="section">
+      <div class="section-kicker">01 <span>About me</span></div>
+      <h2 class="section-title">Academic Details</h2>
+      <div class="info-grid" id="profileContainer">
+        <!-- Dynamically Rendered via Profile Module -->
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="section-kicker">02 <span>Selected work</span></div>
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid" id="projectsContainer">
+        <!-- Dynamically Rendered via Projects Module -->
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="section-kicker">03 <span>My toolkit</span></div>
+      <h2 class="section-title">Skills & Technologies</h2>
+      <div class="skills-grid">
+        <div class="skill-card">Frontend (React, HTML/CSS)</div>
+        <div class="skill-card">Backend (Node.js, Express)</div>
+        <div class="skill-card">Databases (MongoDB, SQL)</div>
+        <div class="skill-card">Data Structures & Algorithms</div>
+        <div class="skill-card">Git & GitHub</div>
+        <div class="skill-card">REST APIs</div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="section-kicker">05 <span>Contact</span></div>
+
+      <h2 class="section-title">
+        Let's build something
+        <span>meaningful.</span>
+      </h2>
+
+      <p class="contact-desc">
+        Have an idea, opportunity, or just want to connect? I'd be happy to hear
+        from you.
+      </p>
+
+      <div class="contact-content">
+        <div class="contact-info">
+          <a href="mailto:yashkumar.connect@gmail.com" class="contact-item">
+            <div class="contact-icon">✉</div>
+
+            <div>
+              <span>Email</span>
+              <strong>yashkumar.connect@gmail.com</strong>
+            </div>
+          </a>
+
+          <a
+            href="https://github.com/yashkumar-project"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact-item"
+          >
+            <div class="contact-icon">↗</div>
+
+            <div>
+              <span>GitHub</span>
+              <strong>@yashkumar-project</strong>
+            </div>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/yash-kumar-cse/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact-item"
+          >
+            <div class="contact-icon">in</div>
+
+            <div>
+              <span>LinkedIn</span>
+              <strong>Let's connect</strong>
+            </div>
+          </a>
+        </div>
+
+        <div class="contact-cta">
+          <p>Have something in mind?</p>
+
+          <a href="mailto:yashkumar.connect@gmail.com" class="btn primary-btn">
+            Say hello <span>↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2026 Yash Kumar. Built with curiosity.</p>
+      <a href="#hero" class="back-to-top"
+        >Back to top <span aria-hidden="true">↑</span></a
+      >
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
